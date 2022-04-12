@@ -15,7 +15,7 @@
 /* Seção jornalismo */
 
 .jornalismo {
-    width: 55%;
+    width: 664px;
 }
 
 .jornalismo__materiaPrincipal   {
@@ -49,7 +49,7 @@
 
     margin-top: 30px;
 
-    width: 92%;
+    width: 624px;
 }
 
 .jornalismo__linhaDois, .jornalismo__linhaTres  {
@@ -58,8 +58,14 @@
     margin-top: 25px;
 }
 
+.espamentoNoticiasJornalismo    {
+    margin-left: 25px;
+
+    margin-right: 25px;
+}
+
 .jornalismo__noticia    {
-    width: 30%;
+    width: 193px;
 }
 
 .jornalismo__noticia___imagem   {
@@ -80,7 +86,7 @@
     padding-top: 10px;
 }
 
-.jornalismo__noticia___manchete, .esporte__noticia___manchete {
+.jornalismo__noticia___manchete, .esporte__noticia___manchete, .entretenimento__noticia___manchete {
     color: #2F3134;
 
     font-size: 20px;
@@ -92,7 +98,7 @@
     padding-top: 10px;
 }
 
-.jornalismo__noticia___complemento, .esporte__noticia___complemento  {
+.jornalismo__noticia___complemento, .esporte__noticia___complemento, .entretenimento__noticia___complemento  {
     color: #2F3134;
 
     font-size: 14px;
@@ -104,36 +110,24 @@
     padding-top: 10px;
 }
 
-.espacamentoNoticia--linhaDois {
-    margin: 0 12px;
-}
+.barra__vertical    {
+    background: #F5F6F7;
 
-.espacamentoNoticia--linhaTres {
-    margin: 0 6px;
-}
+    height: 810px;
 
-.jornalismo__ultimaNoticia  {
-    width: 31%;
+    width: 1px;
 }
 
 /* Seção esporte */
 
 .esporte {
-    width: 25%;
+    width: 309px;
 }
 
 .esporte__noticia   {
     margin: 0 auto;
 
     width: 240px;
-}
-
-.barra__vertical    {
-    background: #F5F6F7;
-
-    height: 805px;
-
-    width: 1px;
 }
 
 .esporte__noticia___imagem  {
@@ -156,6 +150,46 @@
 
 .espamentoNoticiasEsporte   {
     margin-bottom: 30px;
-    
+
     margin-top: 40px;
+}
+
+/* Seção entretenimento */
+
+.entretenimento {
+    align-items: flex-end;
+
+    display: flex;
+
+    flex-direction: column;
+
+    width: 275px;
+}
+
+.entretenimento__noticia    {
+    width: 240px;
+}
+
+.entretenimento__noticia___imagem   {
+    border-radius: 12px;
+
+    height: 122px;
+
+    width: 240px;
+}
+
+.entretenimento__noticia___legenda  {
+    color: #EC8006;
+
+    font-size: 14px;
+
+    font-weight: 500;
+
+    padding-top: 10px;
+}
+
+.espamentoNoticiasEntretenimento    {
+    margin-bottom: 50px;
+
+    margin-top: 50px;
 }
