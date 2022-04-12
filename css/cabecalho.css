@@ -1,0 +1,82 @@
+.cabecalho__imagem  {
+    align-items: center;
+
+    display: flex;
+
+    height: 80px;
+
+    justify-content: center;
+
+    width: 100%;
+    
+}
+
+.borda__horizontal  {
+    background: #F5F6F7;
+
+    height: 1px;
+
+    width: 100%;
+}
+
+.menu__lista    {
+    align-items: center;
+
+    display: flex;
+
+    height: 45px;
+
+    justify-content: space-between;
+
+    margin: 0 auto;
+
+    width: 1250px;
+}
+
+.menu__link {
+    font-size: 19px;
+
+    font-weight: bold;
+
+    text-decoration: none;
+}
+
+#g1 {
+    color: #C3170C;
+}
+
+#oGlobo {
+    color: #1E4B9B;
+}
+
+#valor {
+    color: #006766;
+}
+
+#ge {
+    color: #07AA47;
+}
+
+#cartola {
+    color: #E3662B;
+}
+
+#globoPlay {
+    color: #FB0735;
+}
+
+#dropz {
+    color: #FF75BB;
+}
+
+#gshow{
+    color: #EC7D00;
+}
+
+#quem {
+    color: #323333;
+}
+
+#receitas {
+    color: #A81D83;
+}
