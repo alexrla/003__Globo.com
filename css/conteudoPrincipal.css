@@ -1,4 +1,6 @@
 .conteudo__principal    {
+    display: flex;
+
     margin-bottom: 50px;
 
     margin-left: auto;
@@ -41,7 +43,7 @@
 }
 
 .jornalismo__barraHorizontal    {
-    background: #EBEDEF;
+    background: #F5F6F7;
 
     height: 1px;
 
@@ -78,7 +80,7 @@
     padding-top: 10px;
 }
 
-.jornalismo__noticia___manchete {
+.jornalismo__noticia___manchete, .esporte__noticia___manchete {
     color: #2F3134;
 
     font-size: 20px;
@@ -90,7 +92,7 @@
     padding-top: 10px;
 }
 
-.jornalismo__noticia___complemento  {
+.jornalismo__noticia___complemento, .esporte__noticia___complemento  {
     color: #2F3134;
 
     font-size: 14px;
@@ -114,3 +116,46 @@
     width: 31%;
 }
 
+/* Seção esporte */
+
+.esporte {
+    width: 25%;
+}
+
+.esporte__noticia   {
+    margin: 0 auto;
+
+    width: 240px;
+}
+
+.barra__vertical    {
+    background: #F5F6F7;
+
+    height: 805px;
+
+    width: 1px;
+}
+
+.esporte__noticia___imagem  {
+    border-radius: 12px;
+
+    height: 128px;
+
+    width: 240px;
+}
+
+.esporte__noticia___legenda {
+    color: #16AE54;
+
+    font-size: 14px;
+
+    font-weight: 500;
+
+    padding-top: 10px;
+}
+
+.espamentoNoticiasEsporte   {
+    margin-bottom: 30px;
+    
+    margin-top: 40px;
+}
