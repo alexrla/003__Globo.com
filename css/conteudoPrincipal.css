@@ -1,0 +1,116 @@
+.conteudo__principal    {
+    margin-bottom: 50px;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    margin-top: 35px;
+
+    width: 1250px
+}
+
+/* Seção jornalismo */
+
+.jornalismo {
+    width: 55%;
+}
+
+.jornalismo__materiaPrincipal   {
+    color: #C4160C;
+
+    font-size: 52px;
+
+    font-weight: 700;
+
+    line-height: 67px;
+
+    padding-bottom: 20px;
+}
+
+.jornalismo__materiaSecundaria  {
+    color: #303134;
+
+    font-size: 18px;
+
+    font-weight: 500;
+}
+
+.espacamentoMateriasSecundarias{
+    padding-bottom: 10px;
+}
+
+.jornalismo__barraHorizontal    {
+    background: #EBEDEF;
+
+    height: 1px;
+
+    margin-top: 30px;
+
+    width: 92%;
+}
+
+.jornalismo__linhaDois, .jornalismo__linhaTres  {
+    display: flex;
+
+    margin-top: 25px;
+}
+
+.jornalismo__noticia    {
+    width: 30%;
+}
+
+.jornalismo__noticia___imagem   {
+    border-radius: 12px;
+
+    height: 110px;
+
+    width: 193px;
+}
+
+.jornalismo__noticia___legenda  {
+    color: #C4170C;
+
+    font-size: 14px;
+
+    font-weight: 500;
+
+    padding-top: 10px;
+}
+
+.jornalismo__noticia___manchete {
+    color: #2F3134;
+
+    font-size: 20px;
+
+    font-weight: 700;
+
+    line-height: 25px;
+
+    padding-top: 10px;
+}
+
+.jornalismo__noticia___complemento  {
+    color: #2F3134;
+
+    font-size: 14px;
+
+    font-weight: 400;
+
+    line-height: 19px;
+
+    padding-top: 10px;
+}
+
+.espacamentoNoticia--linhaDois {
+    margin: 0 12px;
+}
+
+.espacamentoNoticia--linhaTres {
+    margin: 0 6px;
+}
+
+.jornalismo__ultimaNoticia  {
+    width: 31%;
+}
+
